@@ -74,10 +74,10 @@ const Input = styled(motion.input)`
 
 const navVars = {
     top: {
-        backgroundColor: "rgba(0, 0, 0, 0)"
+        background: "rgba(0, 0, 0, 0)"
     },
     scroll: {
-        backgroundColor: "rgba(0, 0, 0, 1)"
+        background: "rgba(0, 0, 0, 0.9)"
     }
 }
 

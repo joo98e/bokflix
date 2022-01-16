@@ -17,7 +17,7 @@ ReactDOM.render(
         <QueryClientProvider client={queryClient}>
           <GlobalStyle />
           <App />
-          <ReactQueryDevtools />
+          {/* <ReactQueryDevtools /> */}
         </QueryClientProvider>
       </ThemeProvider>
     </RecoilRoot>

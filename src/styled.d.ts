@@ -12,7 +12,12 @@ declare module 'styled-components' {
     white: {
       darker: string;
       lighter: string;
+      desc? : string;
     };
+    accent?: {
+      darker?: string;
+      lighter?: string;
+    }
   }
 }
 

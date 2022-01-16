@@ -11,7 +11,12 @@ const dark: DefaultTheme = {
     white: {
         lighter: "#fff",
         darker: "#e5e5e5",
+        desc : "#cccccc"
     },
+    accent : {
+        lighter : "#66ffcc",
+        darker : ""
+    }
 }
 
 const theme = {

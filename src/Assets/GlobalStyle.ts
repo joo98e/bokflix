@@ -38,8 +38,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Nanum Gothic', sans-serif;
     line-height: 1;
-    color : #000;
-    background-color : #FFF;
+    color : #FFF;
+    background-color : #000;
   }
   ol, ul {
     list-style: none;
