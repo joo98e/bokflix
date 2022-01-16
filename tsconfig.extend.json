@@ -4,8 +4,9 @@
         "paths": {
             "@app": ["./src/App.tsx"],
             "@ui/*": ["./src/Assets/UI/*"],
-            "@Pages/*": ["./src/Component/Pages/*"]
-
+            "@Pages/*": ["./src/Component/Pages/*"],
+            "@api/*" : ["./src/API/*"],
+            "@fn/*" : ["./src/Functions/*"]
         }
     }
 }
