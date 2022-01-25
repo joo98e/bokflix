@@ -15,7 +15,7 @@ const App = (props: Props) => {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route path={["/", "/movies/:movieId"]}>
           <Home />
         </Route>
         <Route exact path="/tv">

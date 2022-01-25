@@ -17,6 +17,7 @@ const Nav = styled(motion.nav)`
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    z-index: 999;
     background: ${props => props.theme.black.darker};
 `;
 
@@ -166,4 +167,4 @@ const Header = (props: Props) => {
     )
 }
 
-export default Header
+export default React.memo(Header)

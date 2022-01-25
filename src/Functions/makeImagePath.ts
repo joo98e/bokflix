@@ -1,10 +1,6 @@
 import { IMAGE_PATH } from './../API/base';
-interface IMakeImagePath {
-    id: string;
-    format?: string;
-}
 
-const makeImagePath = ({ id, format }: IMakeImagePath) => {
+const makeImagePath = (id: string | undefined, format?: string) => {
     return `${IMAGE_PATH}/${format ?? "original"}/${id}`;
 }
 
