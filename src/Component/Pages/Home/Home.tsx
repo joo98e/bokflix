@@ -61,10 +61,10 @@ const Movie = styled(motion.div) <{ bgPhoto: string }>`
     background-image: url(${props => props.bgPhoto});
     cursor: pointer;
     &:first-child{
-        transform-origin: center left;
+        transform-origin: left;
     }
     &:last-child{
-        transform-origin: center right;
+        transform-origin: right;
     }
 `;
 
@@ -281,7 +281,7 @@ const Home = (props: Props) => {
                                                 </MovieDetailOverview>
                                                 <div style={{ padding: "15px" }}>
                                                     <MovieDetailDesc>{clickedMovie.overview ?? "데이터가 없습니다."}</MovieDetailDesc>
-                                                    <div style={{ display: 'grid', gridTemplateColumns: "repeat(2, 1fr)", gap : 30,marginTop: 30 }}>
+                                                    <div style={{ display: 'grid', gridTemplateColumns: "repeat(2, 1fr)", gap: 30, marginTop: 30 }}>
                                                         <MovieDetailDataTitle>개봉일</MovieDetailDataTitle>
                                                         <MovieDetailDataContent>{clickedMovie.release_date}</MovieDetailDataContent>
                                                         <MovieDetailDataTitle>평점</MovieDetailDataTitle>
